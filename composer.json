@@ -1,0 +1,21 @@
+{
+    "name": "redchamps/module-extra-sorting-options",
+    "description": "It allows to add extra sorting options to category and search pages.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "redchamps/module-core": "*",
+        "magento/module-catalog": "*"
+    },
+    "license": [
+        "RedChamps EULA"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "RedChamps\\ExtraSortingOptions\\": ""
+        }
+    }
+}
